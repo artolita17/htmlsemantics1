@@ -1,0 +1,70 @@
+body{
+    background-color: #c6cdff
+}
+h1{
+    text-align: center;
+    color: #0f6bae;
+}
+nav{
+    background-color: #a2ceee;
+    text-align: center;
+    box-shadow: #104469;
+    text-shadow: #104469;
+}
+nav ul{
+    list-style: none; /* pang tanggal sa dots */
+    padding: 0;
+    display: inline-block;
+}
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add space between list items */
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+nav ul li a {
+    text-decoration: none; /* pang tanggal sa underline */
+     color: #248bd6;
+    padding: 5px 10px; /* Add padding to links */
+    
+}
+h2{
+    color: #0f6bae;
+    text-align: center;
+}
+
+p{
+    color: #248bd6
+}
+figcaption{
+    color: #0f6bae;
+}
+
+footer{
+    color:#70baf0
+}
+footer a{
+    color:#104469
+}
+
+figure{
+    
+    text-align: center;
+}
+figure ul{
+    list-style: none; /* pang tanggal sa dots */
+    padding: 0;
+    display: inline-block;
+}
+figure ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add space between list items */
+    color: #248bd6;
+}
+figure p{
+    color: #248bd6;
+
+}
+
