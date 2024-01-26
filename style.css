@@ -1,7 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'Custom';
+    src: url('fontface/LTAfficherNeue-BoldCaption.otf') format('truetype');
+    
+}
+
 body{
+
+    font-family: Custom;
     background-color: #c6cdff
 }
 h1{
+    word-spacing: 3px;
     text-align: center;
     color: #0f6bae;
 }
@@ -31,6 +43,7 @@ nav ul li a {
     
 }
 h2{
+    font-family: Custom;
     color: #0f6bae;
     text-align: center;
 }
@@ -67,4 +80,3 @@ figure p{
     color: #248bd6;
 
 }
-
