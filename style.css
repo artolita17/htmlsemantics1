@@ -6,88 +6,166 @@ html {
     src: url('fontface/LTAfficherNeue-BoldCaption.otf') format('truetype');
     
 }
-
-body{
-
-    font-family: Custom;
-    background-color: #c6cdff
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-h1{
-    word-spacing: 3px;
-    text-align: center;
-    color: #0f6bae;
-}
-nav{
-    background-color: #a1bfd45a;
-    text-align: center;
-    box-shadow: #104469;
-    text-shadow: #104469;
-    
-}
-nav ul{
-    list-style: none; /* pang tanggal sa dots */
-    padding: 0;
-    display: inline-block;
-}
-nav ul li {
-    display: inline; /* Display list items inline */
-    margin-right: 20px; /* Add space between list items */
+.navbar .logo{
+    margin: 10px 0px;
 }
 
-nav ul li:last-child{
-    margin-right: 0;
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
 }
-nav ul li a {
-    text-decoration: none; /* pang tanggal sa underline */
-     color: #248bd6;
-    padding: 5px 10px; /* Add padding to links */
-    
-}
-h2{
-    font-family: Custom;
-    color: #0f6bae;
-    text-align: center;
-}
-
-p{
+.nav-menu ul {
+    display: flex;
     justify-content: center;
-  
-    color: #248bd6
+    align-items: center;
 }
-figcaption{
-    color: #0f6bae;
+.nav-menu ul li {
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.nav-menu ul li:hover {
+    background-color: #000000;
+    transition: 0.5s ease;
+    
+}
+.nav-menu ul li a:hover{
+    color: white;
+}
+.toggle-btn {
+   
+    position: absolute;
+    top: 28px;
+    right: 60px;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 22px;
+    width: 32px;
+}
+.toggle-btn .bar {
+    
+    height: 4px;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+    .toggle-btn {
+        display: flex;
+        z-index: 2;
+    }
+
+    .nav-menu ul {
+        width: 100%;
+        background-color: #ffffff;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0px;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .nav-menu {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-menu ul-li {
+        margin: 10px 0px;
+    }
+
+    .nav-menu ul li a {
+        font-size: 20px;
+    }
+
+    .navbar .logo {
+        font-size: 29px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
 }
 
-footer{
-    color:#70baf0
-}
-footer a{
-    color:#104469
-}
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-figure{
+
+
+  img {
+    height: 80px;
  
-    text-align: center;
-}
-figure ul{
-    list-style: none; /* pang tanggal sa dots */
-    padding: 0;
-    display: inline-block;
-}
-figure ul li {
-    display: inline; /* Display list items inline */
-    margin-right: 20px; /* Add space between list items */
-    color: #248bd6;
-}
-figure p{
-    color: #248bd6;
+  }
 
-}
-img{
-    border-radius: 20px;
-    box-shadow: #104469;
-}
-article{
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  li {
+    font-size: small;
+    margin-right: 15px;
+  }
+
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+#about{
     padding-top: 100px;
-    padding-bottom: 100px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding-bottom: 300px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+   
+}
+#about h1{
+    font-size: 40px;
+}
+#about img{
+    height: 300px;
+   
+}
+#about{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#describe{
+    padding-top: 4rem;
+    padding-left: 3rem;
 }

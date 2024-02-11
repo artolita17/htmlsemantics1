@@ -9,10 +9,17 @@
 </head>
 <body>
 
-            <header >
-                    <h1>All About Me</h1>
+          
+                <header class="header">
 
-                    <nav>
+                    <nav class="navbar">
+                      <figure class="logo"><img src="images/111121121212-removebg-preview.png" alt="logo"></figure>
+                        <a href="#" class="toggle-btn">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <figure class="nav-menu">
                             <ul style="font-family: sans-serif;">
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="#about">About Myself</a></li>
@@ -22,38 +29,44 @@
                                 <li><a href="#friends">Friends</a></li>
 
                             </ul>
+                        </figure>
                     </nav>
+                   
 
                 </header>
-                    <hr>
+
+
+
+                <script type="text/javascript">
+                    const toggleBtn = document.querySelector(".toggle-btn");
+                    const navmenu = document.querySelector(".nav-menu");
+                    toggleBtn.addEventListener("click", () => {
+                        navmenu.classList.toggle("active");
+                    });
+                </script>
 
             <main>
                     
                     <artticle id="about" style="font-family: sans-serif;">
-                        <section id="about me"> <br>
-                            <h2 >About Myself</h2>   
-                            <figure>
-                                    <img src="images/11.jpg" alt="my image" height="300" style="border-radius: 500px;">
-                                    <figcaption >
-                                        <b>Arturo P. Olita Jr.</b>
-                                    </figcaption>
-                                    <p style="font-family: sans-serif;">
-                                        I am 21-years-old Currently a Second Year BSIT Student <br>
-                                         at Saint Michael College of Caraga. 
-                                        I am passionate about  <br> my passion,
-                                        which fuel my curiosity and creativity. 
-                                         Outside<br> of school, 
-                                         you can find me in my house. 
-                                          I believe in my beliefs, <br>and I am always open to 
-                                         all of you. 
-                                          Let's connect and share our stories!"
-                                    </p>
-                                    <br><br>
-                            </figure>
-                        </section>
+                        <section id="me"> 
+    
+                            <img src="images/11.jpg" alt="my image" height="500" style="border-radius: 400px;">
+            
+                </section>
+                        <section id="describe">
+                            <h1>I am Arturo Olita Jr.</h1> 
+                            <p>A Bachelor of Science in Information Technology student. <br>
+                            I do Videgraphy, Editing, Photography, Basic Cyber<br> Forensics 
+                            Investigations and Cryptography. Coffee is always <br>
+                             present. <br>  </p>
+ 
+                             
+                         </section>
+                      
+                        
 
                     </artticle>
-                        <hr>
+                   
                     <artticle id="lifestory" style="font-family: sans-serif;">
                         <br>
 
