@@ -47,6 +47,7 @@ html {
 .nav-menu ul li a:hover{
     color: white;
 }
+
 .toggle-btn {
    
     position: absolute;
@@ -143,12 +144,12 @@ header {
   }
   
 #about{
-    padding-top: 100px;
+    padding-top: 200px;
     display: flex;
     justify-content: center; 
     flex-wrap: wrap;
     gap: 20px; 
-    padding-bottom: 300px;
+    padding-bottom: 400px;
     padding-left: 4rem;
     padding-right: 4rem;
    
@@ -168,4 +169,136 @@ header {
 #describe{
     padding-top: 4rem;
     padding-left: 3rem;
+}
+#childhood,#teenager,#adult,#Hobbies,#Favorites,#Friends{
+   background-color: rgba(27, 26, 26, 0.055);
+   color: rgb(0, 0, 0);
+   width: 400px;
+   border-radius: 10px;
+   box-shadow: 0 10px 20px rgba(6, 6, 6, 0.249);
+
+}
+
+#Hobbies figure {
+    margin: 10px;
+}
+
+#childhood figure{
+    margin: 10px;
+}
+#teenager figure {
+    margin: 10px;
+}
+#adult figure{
+    margin: 10px;
+}
+#Hobbies img {
+    border-radius: 10px;
+    height: 200px;
+    
+}
+#lifestory img{
+    border-radius: 10px;
+    height: 200px;
+}
+#Favorites img{
+    border-radius: 10px;
+    height: 200px;
+}
+#Favorites figure{
+    margin: 10px;
+}
+#Friends figure{
+    margin: 10px;
+}
+#Friends img{
+    border-radius: 10px;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#lifestory,#hobbies,#favorites,#labidabs{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding-bottom: 300px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+#friends{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding-bottom: 200px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+#gckasoho{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding-bottom: 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+#labidabs{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding-bottom: 400px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+#gckasoho2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding-bottom: 400px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+#gc{
+    background-color: rgba(27, 26, 26, 0.055);
+    color: rgb(0, 0, 0);
+    width:220px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(6, 6, 6, 0.249);
+}
+#blssy{
+    background-color: rgba(168, 45, 72, 0.31);
+    color: rgb(66, 23, 23);
+    width: 245px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(6, 6, 6, 0.249); 
+}
+#gc img{
+    border-radius: 10px;
+    height: 200px;
+}
+#gc figure{
+    margin: 10px;
+}
+#blssy figure{
+    margin: 10px;
+}
+#blssy img{
+    border-radius: 10px;
+    height: 200px;
+}
+#labidabs img {
+    height: 300px;
 }
